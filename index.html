@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=1320">
+    <title>SSDAM</title>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="js/jquery-latest.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/jquery-3.6.2.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/icon.png">
+</head>
+
+<body>
+    <!--header_S-->
+    <div id="header_wrap">
+        <div id="header">
+            <h1 class="logo">
+                <a href="https://yu-sarang.github.io/home/"><img src="images/monitor/1_top/logo.png" alt=""></a>
+            </h1>
+            <div class="util">
+                <ul>
+                    <li><a href="https://yu-sarang.github.io/home/">Home</a></li>
+                    <li><a href="https://yu-sarang.github.io/login/">Login</a></li>
+                    <li><a href="https://yu-sarang.github.io/join/">Join</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="gnb_wrap">
+            <ul class="gnb">
+                <li><a href="https://yu-sarang.github.io/about/">About</a></li>
+                <li>
+                    <a href="javascript:return false;">교육과정 / 신청</a>
+                    <ul class="submenu">
+                        <li><a href="javascript:return false;">영상 교육</a></li>
+                        <li><a href="javascript:return false;">그룹 교육</a></li>
+                        <li><a href="javascript:return false;">개인 교육</a></li>
+                        <li><a href="javascript:return false;">방문 교육</a></li>
+                    </ul>
+                </li>
+                <li><a href="https://yu-sarang.github.io/review/">교육후기</a></li>
+                <li><a href="https://yu-sarang.github.io/login/">내 강의실</a></li>
+                <li><a href="javascript:return false;">고객센터</a></li>
+        </div>
+    </div>
+    </div>
+    <!--header_E-->
+
+    <!--conteiner_S-->
+    <div class="bg">
+        <div id="conteiner">
+            <div class="join_wrap">
+                <div class="join_social">
+                    <div class="join_btn">
+                        <a href="javascript:return false;" class="social1">
+                            <img src="images/social_icon1.png" alt="">
+                            네이버 아이디로 회원가입
+                        </a>
+                        <a href="javascript:return false;" class="social2">
+                            <img src="images/social_icon2.png" alt="">
+                            카카오 아이디로 회원가입
+                        </a>
+                        <div class="col">
+                            <a href="javascript:return false;" class="social3">
+                                <img src="images/social_icon3.png" alt="">
+                                구글 아이디로 회원가입
+                            </a>
+                        </div>
+                    </div>  
+                </div>
+                <div class="login_wrap">
+                    <div class="join_ssdam">
+                        <a href="javascript:return false;"> 쓰담 계정 만들기</a>
+                    </div>
+                    <div class="login_btn">
+                        <p>이미 계정이 있으신가요?</p>
+                        <a href="javascript:return false;"> 로그인 하러가기</a>
+                    </div>
+                </div>     
+            </div>
+        </div>
+    </div>
+   
+    <!--conteiner_E-->
+    <!--aside_S-->
+    <div class="top fixed">
+        <a href="#header_wrap"></a>
+    </div>
+    <div id="aside_wrap">
+        <div class="aside">
+            <a href="javascript:return false;" class="opacity">
+                <div class="aside_box1">
+                    <img src="images/monitor/7_fix/icon1.png" alt="">
+                    <p>교육 안내</p>
+                </div>
+            </a>
+            <a href="javascript:return false;" class="opacity">
+                <div class="aside_box2">
+                    <img src="images/monitor/7_fix/icon2.png" alt="">
+                    <p>교육 문의</p>
+                </div>
+            </a>
+            <a href="https://yu-sarang.github.io/review/" class="opacity">
+                <div class="aside_box3">
+                    <img src="images/monitor/7_fix/icon3.png" alt="">
+                    <p>교육 후기</p>
+                </div>
+            </a>
+            <a href="#header_wrap" class="top">
+                <div class="aside_box4">
+                    <p>▲ TOP</p>
+                </div>
+            </a>
+        </div>
+    </div>
+    <!--aside_E-->
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1,
+            spaceBetween: 0,
+            autoplay: {//자동재생
+                delay: 17000,//슬라이드 넘어가는 시간
+                disableOnInteraction: false,
+            },
+            loop: true,//반복
+            speed: 2000,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true
+            }
+        });
+    </script>
+
+
+    <!--footer_S-->
+    <div id="footer_wrap">
+        <div class="footer">
+            <div class="footer_txt">
+                <p>
+                    대표 : ooo I 주소 : 부산시 금정구 새싹로14번지 2 <br>
+                    TEL : 051 123 4567 사업자 등록 번호 : 12345-67891-234
+                    <br>
+                    <a href="javascript:return false;">이용약관</a> I <a href="javascript:return false;">개인정보취급방침</a>
+                </p>
+            </div>
+            <div class="footer_logo">
+                <a href="https://yu-sarang.github.io/home/"><img src="images/monitor/6_footer/footer_icon.png"
+                        alt=""></a>
+            </div>
+            <div class="footer_copyrigth">
+                <p>COPYRIGHT(C) 2023 쓰담 All right reserved.</p>
+            </div>
+        </div>
+    </div>
+    <!--footer_S-->
+
+</body>
+
+</html>
